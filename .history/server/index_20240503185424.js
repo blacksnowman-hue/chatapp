@@ -11,7 +11,7 @@ app.use(cors(
   {
     origin:['https://chatapp-green-five.vercel.app/'],
     methods:['POST','GET'],
-    credentials:true
+    credentials
   }
 ));
 app.use(express.json());

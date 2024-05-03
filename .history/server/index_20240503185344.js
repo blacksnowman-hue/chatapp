@@ -9,9 +9,7 @@ require("dotenv").config();
 
 app.use(cors(
   {
-    origin:['https://chatapp-green-five.vercel.app/'],
-    methods:['POST','GET'],
-    credentials:true
+    
   }
 ));
 app.use(express.json());
